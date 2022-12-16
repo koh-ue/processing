@@ -1,9 +1,9 @@
-int NUM = 10000;
+int NUM = 30000;
 
 ParticleVec5[] particles = new ParticleVec5[NUM];
 
 public void settings(){
-  size(800,600,"processing.opengl.PGraphics2D",P2D);
+  size(displayWidth, displayHeight, "processing.opengl.PGraphics2D",P2D);
 }
 void setup(){
   frameRate(60);
